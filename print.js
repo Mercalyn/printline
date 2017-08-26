@@ -26,11 +26,11 @@ function println(printArgs){
     newElement.style.color = "gray";
 
     //because of semantics, need to add an id--and NOT a class!!-- to body before appending a child
-    var addIdToBody = document.getElementsByTagName("BODY")[0];
-    addIdToBody.setAttribute("id", "bodyId");
+    var addIdToBody = document.getElementsByTagName("HTML")[0];
+    addIdToBody.setAttribute("id", "htmlId");
 
     //here we actually add the content inside .bodyClass
-    var appendElement = document.getElementById("bodyId");
+    var appendElement = document.getElementById("htmlId");
     appendElement.appendChild(newElement);
     
     
