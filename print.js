@@ -3,7 +3,7 @@ function println(printArgs){
     //use println(arguments);
     
     //number of lines you actually want displayed from the bottom
-    displayLines = 30;
+    var displayLines = 30;
     
     //creation of the element
     var newElement = document.createElement("p");
